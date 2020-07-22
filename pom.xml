@@ -43,7 +43,14 @@
         </plugin>
     </plugins>
 </build>
-	
+	   <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://13.48.123.133:8081/repository/release_repo/</url>
+        </repository>
+      
+    </distributionManagement>
 </project>
 
 
